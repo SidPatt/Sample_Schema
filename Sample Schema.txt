@@ -1,0 +1,15 @@
+import mongoose from 'mongoose';
+const {Schema} = mongoose;
+
+const StudentExamSchema = new Schema({
+    _Id : ObjectId,
+    Candidate_Roll : Number,
+    Candidate_FirstName : String,
+    Candidate_LastName : String,
+    Exam_subject : String,
+    Exam_Code : String,
+    Exam_Date : {type: Date, default : Date.now},
+    Exam_Response : [{Q1 : String}, {Q2 : String}],
+    Exam_Score : Number
+
+});

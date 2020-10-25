@@ -1,0 +1,34 @@
+{
+    "_Id" : "",
+    "Candidate_Roll" : "1",
+    "Candidate_FirstName" : "Sidharth",
+    "Candidate_LastName" : "Pattnaik",
+    "Exam_subject" : "Java",
+    "Exam_Code" : "2.3-OOPS-JAVA",
+    "Exam_Date" : "24.03.2019",
+    "Exam_Response" : [
+        {"Q1" : "A"},
+        {"Q2" : "B"},
+        {"Q3" : "C"}
+    ],
+    "Exam_Score" : 94
+}
+
+{
+    "_Id" : "",
+    "Candidate_Roll" : "2",
+    "Candidate_FirstName" : "Prabhutosh",
+    "Candidate_LastName" : "Panda",
+    "Exam_subject" : "Java",
+    "Exam_Code" : "2.3-OOPS-JAVA",
+    "Exam_Date" : "24.03.2019",
+    "Exam_Response" : [
+        {"Q1" : "A"},
+        {"Q2" : "B"},
+        {"Q3" : "C"},
+        {"Q4" : "D"},
+        {"Q5" : "A"}
+    ],
+    "Exam_Score" : 90
+    
+}
